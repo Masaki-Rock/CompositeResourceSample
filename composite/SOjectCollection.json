@@ -1,0 +1,40 @@
+{
+	"compositeRequest" : [
+	{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject1"
+			}, {
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject2"
+			}, {
+				"attributes" : {"type" : "Contact"},
+				"LastName" : "Composite Contract1",
+				"FirstName" : "Erica"
+			}]
+		}
+	},{
+		"method" : "GET",
+		"url" : "/services/data/v49.0/composite/sobjects/Account?ids=@{refNewAccount[1].id}&recordId&fields=id,name",
+		"referenceId" : "refGetAccount"
+	},{
+		"method" : "PATCH",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refUpdateAccount",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"id" : "@{refNewAccount[0].id}",
+				"NumberOfEmployees" : 27000
+			}]
+		}
+	},{
+		"method" : "DELETE",
+		"url" : "/services/data/v49.0/composite/sobjects/?ids=@{refNewAccount[0].id}&allOrNone=true",
+		"referenceId" : "refDelAccount"
+	}]
+}

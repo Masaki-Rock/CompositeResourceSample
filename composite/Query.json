@@ -1,0 +1,17 @@
+{
+	"allOrNone" : true,
+	"collateSubrequests": true,
+	"compositeRequest" : [{
+		"method" : "GET",
+		"url" : "/services/data/v45.0/query/?q=SELECT+Name+from+Account+WHERE+isDeleted+=+TRUE",
+		"referenceId" : "SOQLAccount"
+	},{
+		"method" : "GET",
+		"url" : "/services/data/v45.0/queryAll/?q=SELECT+Name+from+Account+WHERE+isDeleted+=+TRUE",
+		"referenceId" : "SearchAccount"
+	}]
+}
+
+
+
+

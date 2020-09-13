@@ -1,0 +1,37 @@
+{
+	"allOrNone" : true,
+	"collateSubrequests": true,
+	"compositeRequest" : [{
+		"method" : "GET",
+		"url" : "/services/data/v38.0/sobjects/Account/describe",
+		"httpHeaders" : { "If-Modified-Since" : "Tue, 31 May 2016 18:00:00 GMT" },
+		"referenceId" : "AccountInfo"
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"referenceId" : "refNewAccount",
+		"body" : { "Name" : "SOject-New", "ExternalID__c", "ABCD" }
+	},{
+		"method" : "GET",
+		"url" : "/services/data/v38.0/sobjects/Account/@{refNewAccount.id}",
+		"referenceId" : "refGetAccount"
+	},{
+		"method" : "PATCH",
+		"url" : "/services/data/v38.0/sobjects/Account/@{refNewAccount.id}",
+		"referenceId" : "refUpdateAccount",
+		"body" : { "Name" : "SObject-Update" }
+	},{
+		"method" : "PATCH",
+		"url" : "/services/data/v38.0/sobjects/Account/ExternalID__c/@{refNewAccount.ExternalID__c},
+		"referenceId" : "refUpsertAccount",
+		"body" : { "Name" : "SObject-Upsert" }
+	},{
+		"method" : "DELETE",
+		"url" : "/services/data/v38.0/sobjects/Account/@{refNewAccount.id}",
+		"referenceId" : "refDelAccount"
+	},{
+		"method" : "GET",
+		"url" : "/services/data/v38.0/sobjects/Account/deleted/?start=2020-09-12T00%3A00%3A00%2B00%3A00&end=2020-09-13T00%3A00%3A00%2B00%3A00",
+		"referenceId" : "DelListAccountFields"
+	}]
+}
