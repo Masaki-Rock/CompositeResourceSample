@@ -1,0 +1,20 @@
+{
+	"allOrNone" : true,
+	"collateSubrequests": true,
+	"compositeRequest" : [{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Case",
+		"referenceId" : "refAccount1",
+		"body" : { "Subject" : "Case-New 1", "CheckTxt__c" : "ABCD" }
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Case",
+		"referenceId" : "refAccount2",
+		"body" : { "Subject" : "Case-New 2" }
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Case",
+		"referenceId" : "refAccount3",
+		"body" : { "Subject" : "Case-New 3", "CheckTxt__c" : "ABCD" }
+	}]
+}
