@@ -1,0 +1,11 @@
+{
+    "batchRequests" : [{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 1"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 2"}
+	}]
+}

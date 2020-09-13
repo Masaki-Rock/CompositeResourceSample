@@ -1,0 +1,11 @@
+{
+   "allOrNone" : false,
+   "records" : [{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi",
+      "FirstName" : "Masaki"
+   }]
+}

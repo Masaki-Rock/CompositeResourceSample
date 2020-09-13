@@ -10,7 +10,7 @@
 		"method" : "POST",
 		"url" : "/services/data/v38.0/sobjects/Account",
 		"referenceId" : "refNewAccount",
-		"body" : { "Name" : "SOject-New", "ExternalID__c", "ABCD" }
+		"body" : { "Name" : "SOject-New", "ExternalID__c" : "ABCD" }
 	},{
 		"method" : "GET",
 		"url" : "/services/data/v38.0/sobjects/Account/@{refNewAccount.id}",
