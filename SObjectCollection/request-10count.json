@@ -1,0 +1,39 @@
+{
+   "allOrNone" : false,
+   "records" : [{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company1"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi1",
+      "FirstName" : "Masaki"
+   },{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company2"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi2",
+      "FirstName" : "Masaki"
+   },{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company3"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi3",
+      "FirstName" : "Masaki"
+   },{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company4"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi4",
+      "FirstName" : "Masaki"
+   },{
+      "attributes" : {"type" : "Account"},
+      "Name" : "Company5"
+   }, {
+      "attributes" : {"type" : "Contact"},
+      "LastName" : "Kawaguchi5",
+      "FirstName" : "Masaki"
+   }]
+}

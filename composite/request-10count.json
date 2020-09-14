@@ -1,0 +1,104 @@
+{
+	"compositeRequest" : [
+	{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount1",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject1"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount2",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject2"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount3",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject3"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount4",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject4"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount5",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject5"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount6",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject6"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount7",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject7"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount8",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject8"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount9",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject9"
+			}]
+		}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v49.0/composite/sobjects",
+		"referenceId" : "refNewAccount10",
+		"body" : {
+			"records" :[{
+				"attributes" : {"type" : "Account"},
+				"Name" : "Composite SObject10"
+			}]
+		}
+	}]
+}

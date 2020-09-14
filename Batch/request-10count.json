@@ -1,0 +1,43 @@
+{
+    "batchRequests" : [{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 1"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 2"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 3"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 4"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 5"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 6"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 7"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 8"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 9"}
+	},{
+		"method" : "POST",
+		"url" : "/services/data/v38.0/sobjects/Account",
+		"richInput" : { "Name" : "Batch company 10"}
+	}]
+}
